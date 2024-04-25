@@ -12,14 +12,23 @@ ___
 2. _WGS84_ kordinatlarının elde edilmesi. 
 Niğde Belediyesi keos hizmeti üzerinden verilerimizi kazıyalım. [Link](https://keos.nigde.bel.tr/keos/)
 
-[media_1.mp4](media%2Fmedia_1.mp4)
+
+
+https://github.com/selcuktekgoz/WGS84toLatLong/assets/102700589/6ea52662-3297-4781-b540-5a1b0a9a70dc
+
+
+
 3. Kazıdığımız _WGS84_ kordinatlarını (Lat,Long) çevirmek için proje dizininde bir txt dosyasına kaydedip. Aşağıdaki komutları çalıştıralım.
 
 `file = open_file("ahipasa_mah.txt")`
 
 `df = convert_wgs84_to_lat_long(file,"Niğde")`
 
-[media_2.mp4](media%2Fmedia_2.mp4)
+
+
+https://github.com/selcuktekgoz/WGS84toLatLong/assets/102700589/5e52d205-28c9-44b6-bed4-b6fea011fff1
+
+
 
 
 İşlem sonucunda proje dizinimizde _"ahipasa_mah_2024_04_25_15_52_07.csv"_ isminde dosyamız oluşmuştur.
